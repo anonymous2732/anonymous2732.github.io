@@ -4,6 +4,43 @@
 Music generation in the waveform domain is a computationally intensive task, considering the inherent high dimensionality of audio data. State-of-the-art music generation systems require large amounts of data to be trained on, massive computational resources for training, and extremely slow times for the generation process. These characteristics represent an important obstacle for real-world usage of powerful music generation tools. In this work we introduce Musika, a music generation system that is able to be trained on attainable amounts of data using a single consumer GPU, and that allows for much faster than real-time generation of music of arbitrary length, on both GPU and CPU. We achieve this by first training one or more autoencoders in a hierarchical fashion to reconstruct full spectrograms, aiding the reconstruction process with an adversarial objective. A Generative Adversarial Network is finally used to generate the resulting compressed invertible representations of a particular music domain. A latent coordinate system is introduced to achieve infinite-length music generation, while a global context vector allows the generated music piece to remain stylistically coherent through time. We perform quantitative evaluations to assess the quality of the generated samples and show how the system can be used for real-world applications. We release the source code and the weights of the pretrained autoencoders, such that a GAN can be trained on a new music domain with a single GPU in a matter of hours.
 
 
+## Unconditional Piano Music Generation
+
+We train an unconditional Musika system on the MAESTRO dataset, consisting in 200 hours of piano performances. To decode the generated latent vector sequence, we use a second level decoder, trained specifically to reconstruct piano music, and a universal first level decoder, trained to reconstruct a wider range of audio domains.  
+Since the system is able to generate samples of arbitrary length, we showcase some short samples and some longer ones.
+
+### 23 seconds samples
+
+<audio src="uncond_piano_mp3/0.mp3" controls ></audio>
+<img src="uncond_piano_mp3/0.png">
+<audio src="uncond_piano_mp3/1.mp3" controls ></audio>
+<img src="uncond_piano_mp3/1.png">
+<audio src="uncond_piano_mp3/2.mp3" controls ></audio>
+<img src="uncond_piano_mp3/2.png">
+<audio src="uncond_piano_mp3/3.mp3" controls ></audio>
+<img src="uncond_piano_mp3/3.png">
+<audio src="uncond_piano_mp3/4.mp3" controls ></audio>
+<img src="uncond_piano_mp3/4.png">
+<audio src="uncond_piano_mp3/5.mp3" controls ></audio>
+<img src="uncond_piano_mp3/5.png">
+<audio src="uncond_piano_mp3/6.mp3" controls ></audio>
+<img src="uncond_piano_mp3/6.png">
+<audio src="uncond_piano_mp3/7.mp3" controls ></audio>
+<img src="uncond_piano_mp3/7.png">
+<audio src="uncond_piano_mp3/8.mp3" controls ></audio>
+<img src="uncond_piano_mp3/8.png">
+<audio src="uncond_piano_mp3/9.mp3" controls ></audio>
+<img src="uncond_piano_mp3/9.png">
+
+### 4 minutes samples
+
+<audio src="uncond_piano_mp3/long/0.mp3" controls ></audio>
+<audio src="uncond_piano_mp3/long/1.mp3" controls ></audio>
+<audio src="uncond_piano_mp3/long/2.mp3" controls ></audio>
+<audio src="uncond_piano_mp3/long/3.mp3" controls ></audio>
+<audio src="uncond_piano_mp3/long/4.mp3" controls ></audio>
+<audio src="uncond_piano_mp3/long/5.mp3" controls ></audio>
+
 <!-- ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/anonymous2732/anonymous2732.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
