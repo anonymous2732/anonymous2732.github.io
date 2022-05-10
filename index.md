@@ -10,37 +10,39 @@ We train an unconditional Musika system on the [MAESTRO](https://magenta.tensorf
 Since the system is able to generate samples of arbitrary length, we showcase some short samples and some longer ones.
 
 ### 23 seconds samples
-
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-
 <audio src="uncond_piano_mp3/0.mp3" controls ></audio>
 <img src="uncond_piano_mp3/0.png">
+<br/>
 <audio src="uncond_piano_mp3/1.mp3" controls ></audio>
 <img src="uncond_piano_mp3/1.png">
+<br/>
 <audio src="uncond_piano_mp3/2.mp3" controls ></audio>
 <img src="uncond_piano_mp3/2.png">
+<br/>
 <audio src="uncond_piano_mp3/3.mp3" controls ></audio>
 <img src="uncond_piano_mp3/3.png">
+<br/>
 <audio src="uncond_piano_mp3/4.mp3" controls ></audio>
 <img src="uncond_piano_mp3/4.png">
+<br/>
 <audio src="uncond_piano_mp3/5.mp3" controls ></audio>
 <img src="uncond_piano_mp3/5.png">
+<br/>
 <audio src="uncond_piano_mp3/6.mp3" controls ></audio>
 <img src="uncond_piano_mp3/6.png">
+<br/>
 <audio src="uncond_piano_mp3/7.mp3" controls ></audio>
 <img src="uncond_piano_mp3/7.png">
+<br/>
 <audio src="uncond_piano_mp3/8.mp3" controls ></audio>
 <img src="uncond_piano_mp3/8.png">
+<br/>
 <audio src="uncond_piano_mp3/9.mp3" controls ></audio>
 <img src="uncond_piano_mp3/9.png">
 
 ### 4 minutes samples
-
+<br/>
 <audio src="uncond_piano_mp3/long/0.mp3" controls ></audio>
 <audio src="uncond_piano_mp3/long/1.mp3" controls ></audio>
 <audio src="uncond_piano_mp3/long/2.mp3" controls ></audio>
@@ -55,40 +57,49 @@ We use the [MADMOM](https://github.com/CPJKU/madmom) Python library to perform o
 As a demonstration, we showcase generated samples created by both feeding random signals and using constant values as note density conditioning.
 
 ### Random Note Density
-
+<br/>
 <audio src="cond_piano_mp3/0.mp3" controls ></audio>
 <img src="cond_piano_mp3/0s.png">
 <img src="cond_piano_mp3/0.png">
+<br/>
 <audio src="cond_piano_mp3/1.mp3" controls ></audio>
 <img src="cond_piano_mp3/1s.png">
 <img src="cond_piano_mp3/1.png">
+<br/>
 <audio src="cond_piano_mp3/2.mp3" controls ></audio>
 <img src="cond_piano_mp3/2s.png">
 <img src="cond_piano_mp3/2.png">
+<br/>
 <audio src="cond_piano_mp3/3.mp3" controls ></audio>
 <img src="cond_piano_mp3/3s.png">
 <img src="cond_piano_mp3/3.png">
+<br/>
 <audio src="cond_piano_mp3/4.mp3" controls ></audio>
 <img src="cond_piano_mp3/4s.png">
 <img src="cond_piano_mp3/4.png">
+<br/>
 <audio src="cond_piano_mp3/5.mp3" controls ></audio>
 <img src="cond_piano_mp3/5s.png">
 <img src="cond_piano_mp3/5.png">
+<br/>
 <audio src="cond_piano_mp3/6.mp3" controls ></audio>
 <img src="cond_piano_mp3/6s.png">
 <img src="cond_piano_mp3/6.png">
 
 ### Constant Note Density
-
+<br/>
 <audio src="cond_piano_mp3/7.mp3" controls ></audio>
 <img src="cond_piano_mp3/7s.png">
 <img src="cond_piano_mp3/7.png">
+<br/>
 <audio src="cond_piano_mp3/8.mp3" controls ></audio>
 <img src="cond_piano_mp3/8s.png">
 <img src="cond_piano_mp3/8.png">
+<br/>
 <audio src="cond_piano_mp3/9.mp3" controls ></audio>
 <img src="cond_piano_mp3/9s.png">
 <img src="cond_piano_mp3/9.png">
+<br/>
 <audio src="cond_piano_mp3/10.mp3" controls ></audio>
 <img src="cond_piano_mp3/10s.png">
 <img src="cond_piano_mp3/10.png">
