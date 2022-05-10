@@ -6,7 +6,7 @@ Music generation in the waveform domain is a computationally intensive task, con
 
 ## Unconditional Piano Music Generation
 
-We train an unconditional Musika system on the MAESTRO dataset, consisting in 200 hours of piano performances. To decode the generated latent vector sequence, we use a second level decoder, trained specifically to reconstruct piano music, and a universal first level decoder, trained to reconstruct a wider range of audio domains.  
+We train an unconditional Musika system on the [MAESTRO](https://magenta.tensorflow.org/datasets/maestro) dataset, consisting in 200 hours of piano performances. To decode the generated latent vector sequence, we use a second level decoder, trained specifically to reconstruct piano music, and a universal first level decoder, trained to reconstruct a wider range of audio domains.  
 Since the system is able to generate samples of arbitrary length, we showcase some short samples and some longer ones.
 
 ### 23 seconds samples
@@ -40,6 +40,52 @@ Since the system is able to generate samples of arbitrary length, we showcase so
 <audio src="uncond_piano_mp3/long/3.mp3" controls ></audio>
 <audio src="uncond_piano_mp3/long/4.mp3" controls ></audio>
 <audio src="uncond_piano_mp3/long/5.mp3" controls ></audio>
+
+
+## Conditional Piano Music Generation
+
+We use the [MADMOM](https://github.com/CPJKU/madmom) Python library to perform onset detection for each sample in the MAESTRO dataset. We then create a note density signal and use it as conditioning for latent GAN. This allows users to interact with the generation process by proposing a custom note density signal.  
+As a demonstration, we showcase generated samples created by both feeding random signals and using constant values as note density conditioning.
+
+### Random Note Density
+
+<audio src="cond_piano_mp3/0.mp3" controls ></audio>
+<img src="cond_piano_mp3/0s.png">
+<img src="cond_piano_mp3/0.png">
+<audio src="cond_piano_mp3/1.mp3" controls ></audio>
+<img src="cond_piano_mp3/1s.png">
+<img src="cond_piano_mp3/1.png">
+<audio src="cond_piano_mp3/2.mp3" controls ></audio>
+<img src="cond_piano_mp3/2s.png">
+<img src="cond_piano_mp3/2.png">
+<audio src="cond_piano_mp3/3.mp3" controls ></audio>
+<img src="cond_piano_mp3/3s.png">
+<img src="cond_piano_mp3/3.png">
+<audio src="cond_piano_mp3/4.mp3" controls ></audio>
+<img src="cond_piano_mp3/4s.png">
+<img src="cond_piano_mp3/4.png">
+<audio src="cond_piano_mp3/5.mp3" controls ></audio>
+<img src="cond_piano_mp3/5s.png">
+<img src="cond_piano_mp3/5.png">
+<audio src="cond_piano_mp3/6.mp3" controls ></audio>
+<img src="cond_piano_mp3/6s.png">
+<img src="cond_piano_mp3/6.png">
+
+### Constant Note Density
+
+<audio src="cond_piano_mp3/7.mp3" controls ></audio>
+<img src="cond_piano_mp3/7s.png">
+<img src="cond_piano_mp3/7.png">
+<audio src="cond_piano_mp3/8.mp3" controls ></audio>
+<img src="cond_piano_mp3/8s.png">
+<img src="cond_piano_mp3/8.png">
+<audio src="cond_piano_mp3/9.mp3" controls ></audio>
+<img src="cond_piano_mp3/9s.png">
+<img src="cond_piano_mp3/9.png">
+<audio src="cond_piano_mp3/10.mp3" controls ></audio>
+<img src="cond_piano_mp3/10s.png">
+<img src="cond_piano_mp3/10.png">
+
 
 <!-- ## Welcome to GitHub Pages
 
