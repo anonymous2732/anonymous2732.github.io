@@ -8,6 +8,10 @@ layout: page
 {% include video source="youtube" id="QBl8y2Z_i7Y" %}
 
 # Musika! <br/> Fast Infinite Waveform Music Generation
+Accepted at [ISMIR 2022](https://ismir2022.ismir.net/)
+
+Find the paper [here](https://arxiv.org/)
+<br/>
 
 __Marco Pasini__
 
