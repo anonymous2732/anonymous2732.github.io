@@ -1,8 +1,15 @@
 # remote_theme: pages-themes/cayman@v0.2.0
 remote_theme: oinam/oinam-jekyll
 
+title: ""
+
 layout:
   theme: default # default, vintage, nord
 
 plugins:
 - jekyll-remote-theme
+
+titles_from_headings:
+  enabled: false
+  strip_title: true
+  collections: true
