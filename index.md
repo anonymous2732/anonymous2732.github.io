@@ -1,3 +1,5 @@
+![Banner](logo.png)
+
 # Musika! <br/> Fast Infinite Waveform Music Generation
 
 **Abstract**  
