@@ -10,24 +10,13 @@ layout: page
 # Musika! <br/> Fast Infinite Waveform Music Generation
 
 __Marco Pasini__
-{: text-align: center;"}
-
 _Institute of Computational Perception, Johannes Kepler University Linz, Austria_
-{: text-align: center;"}
-
 _marco.pasini.98@gmail.com_
-{: text-align: center;"}
-
 
 
 __Jan Schlüter__
-{: text-align: center;"}
-
 _Institute of Computational Perception, Johannes Kepler University Linz, Austria_
-{: text-align: center;"}
-
 _jan.schlueter@jku.at_
-{: text-align: center;"}
 
 
 **Abstract**  
