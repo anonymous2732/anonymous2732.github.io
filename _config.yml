@@ -1,6 +1,14 @@
 # remote_theme: pages-themes/cayman@v0.2.0
 remote_theme: oinam/oinam-jekyll
 
+# title: Musika!
+# description: Fast Infinite Waveform Music Generation
+
+# Set this to your domain; baseurl is for the folder in your domain, if you have one -- `blog`.
+# you can leave both of them blank if you are deploying on a top-level domain.
+# url: https://oinam.github.io
+
+
 # layout:
 #   theme: nord # default, vintage, nord
 
