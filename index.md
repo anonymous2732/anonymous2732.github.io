@@ -3,9 +3,9 @@ layout: post
 title: ""
 ---
 
-{% if post.title %}
+<!-- {% if post.title %}
     <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-{% endif %}
+{% endif %} -->
 
 
 # Musika! <br/> Fast Infinite Waveform Music Generation
