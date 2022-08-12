@@ -1,6 +1,7 @@
+---
 layout: page
-title: main
-permalink: /main/
+title: Musika!
+permalink: 
 ---
 
 # Musika! <br/> Fast Infinite Waveform Music Generation
