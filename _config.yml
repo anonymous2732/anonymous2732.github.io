@@ -10,7 +10,7 @@ url: https://anonymous2732.github.io
 
 
 layout:
-  theme: nord # default, vintage, nord
+  theme: default # default, vintage, nord
 
 plugins:
 - jekyll-remote-theme
