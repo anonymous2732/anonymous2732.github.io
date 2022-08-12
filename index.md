@@ -1,3 +1,8 @@
+layout: page
+title: main
+permalink: /main/
+---
+
 # Musika! <br/> Fast Infinite Waveform Music Generation
 
 <!-- ![Banner](logo.png) -->
