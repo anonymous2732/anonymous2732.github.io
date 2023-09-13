@@ -1,0 +1,11 @@
+.audio-player {
+  display: inline-block;
+  margin-right: 20px; /* Adjust the margin as needed */
+  vertical-align: top; /* Align audio player and description at the top */
+}
+
+.audio-description {
+  display: inline-block;
+  margin-left: 5px; /* Adjust the margin as needed */
+  vertical-align: top; /* Align audio player and description at the top */
+}
