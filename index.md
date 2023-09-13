@@ -42,12 +42,6 @@ We generate samples using a randomly cropped ~23 second bass sample from MUSDB18
   </thead>
   <tbody>
     <tr>
-      <td><audio src="ground/9/ground.mp3" controls></audio></td>
-      <td><audio src="ground/9/mix_gen_ground.mp3" controls></audio></td>
-      <td><audio src="ground/9/bass_gen_ground.mp3" controls></audio></td>
-      <td><audio src="ground/9/mix_input.mp3" controls></audio></td>
-    </tr>
-    <tr>
       <td><audio src="ground/0/ground.mp3" controls></audio></td>
       <td><audio src="ground/0/mix_gen_ground.mp3" controls></audio></td>
       <td><audio src="ground/0/bass_gen_ground.mp3" controls></audio></td>
@@ -64,6 +58,12 @@ We generate samples using a randomly cropped ~23 second bass sample from MUSDB18
       <td><audio src="ground/3/mix_gen_ground.mp3" controls></audio></td>
       <td><audio src="ground/3/bass_gen_ground.mp3" controls></audio></td>
       <td><audio src="ground/3/mix_input.mp3" controls></audio></td>
+    </tr>
+    <tr>
+      <td><audio src="ground/9/ground.mp3" controls></audio></td>
+      <td><audio src="ground/9/mix_gen_ground.mp3" controls></audio></td>
+      <td><audio src="ground/9/bass_gen_ground.mp3" controls></audio></td>
+      <td><audio src="ground/9/mix_input.mp3" controls></audio></td>
     </tr>
     <tr>
       <td><audio src="ground/4/ground.mp3" controls></audio></td>
